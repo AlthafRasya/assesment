@@ -1,0 +1,45 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int masazer = 18;
+int tanggal = 28;
+
+int angka;
+
+
+
+
+
+
+int main() {
+    // Write C code here
+    printf("masukan umur = ");
+    scanf("%d",&angka);
+    printf("nilai = %d\n", angka);
+   
+    
+    
+    if(angka==16) {
+        printf("althaf");
+    }
+    else if (angka==19) {
+        printf("afriza");
+    }
+    else if (angka==15) {
+        printf("naila");
+    }
+    else if (angka==18) {
+        printf("azer");
+    }
+    else {
+        printf("tidak terdeteksi");
+    }
+    
+    return 0;
+} 
+
+    
+    
+    
+   
+    
+
