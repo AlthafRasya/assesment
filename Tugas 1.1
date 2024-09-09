@@ -1,0 +1,17 @@
+#include <stdio.h>
+int angka;
+
+
+int main() {
+    printf("Masukan angka = ");
+    scanf("%d", &angka);
+    if(angka > 10){
+        printf("adalah angka anda %d", angka);
+        return 0;
+}
+}
+
+//kesalahan terletak pada :
+//1. int main belum di tutup kurung kurawal (})
+//2. %d belu diberi tanda petik
+//3. printf("adalah angka anda %d", angka) belum diberi titik koma (;)
